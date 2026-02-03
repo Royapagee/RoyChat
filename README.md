@@ -1,4 +1,4 @@
-# HaikreiChat
+# RoyChat
 
 受LingChat启发，目标是制作一个完备的，基于AI的Galgame的系统。
 
