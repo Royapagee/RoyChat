@@ -1,0 +1,22 @@
+"""这里存放了所有调用的api的数据"""
+[chat]
+mode = online
+baseurl = ""
+modelid = ""
+token = ""
+vision = true
+
+[vision]
+mode = online
+baseurl = "" 
+token = ""
+
+[tts]
+method = ""
+url = ""
+
+
+[rag]
+mode = local
+host = 127.0.0.1\
+token = 1234567890

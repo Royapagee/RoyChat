@@ -1,0 +1,23 @@
+[app]
+name = "RoyChat"
+debug = false
+version = "0.0.1"
+
+[frontend]
+#连接到前端
+ip = "127.0.0.1"
+port = 2711
+token = 1145141919810
+
+[volume]
+#控制声音
+global = 80
+character = 80
+background = 80
+
+[ui]
+text_speed = 100 #文本显示速度倍率
+
+[game]
+mode = "chat" #可选chat/story
+character = "Roy"
