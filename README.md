@@ -12,7 +12,9 @@ ROYCHAT
 │  └─Scripts
 ├─backend              #后端
 │  ├─app               #软件后端
-│  │  ├─api              #与前端的通信
+│  │  ├─api              #通信程序
+│  │  |  ├─aichat          #ai大模型适配器
+│  │  |  └─websoket        #后端通信
 │  │  └─services         #后端内部功能处理
 │  ├─config            #各个功能的配置文件
 │  └─models            #本地模型的存放

@@ -1,9 +1,9 @@
 """这里存放了所有调用的api的数据"""
 [chat]
 mode = online
-baseurl = ""
-modelid = ""
-token = ""
+base_url = "https://api.moonshot.cn/v1"
+model_id = "kimi-k2-0905-preview"
+api_key = "sk-1rvrHMciynw0PiW4vDjWAYkbONnmikGnsHI7tSRTv1FtiL1Q"
 vision = true
 
 [vision]
