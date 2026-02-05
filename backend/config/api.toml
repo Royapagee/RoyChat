@@ -1,22 +1,23 @@
-"""这里存放了所有调用的api的数据"""
+"""这里存放了所有调用的在线api的数据"""
 [chat]
-mode = online
 base_url = "https://api.moonshot.cn/v1"
 model_id = "kimi-k2-0905-preview"
 api_key = "sk-1rvrHMciynw0PiW4vDjWAYkbONnmikGnsHI7tSRTv1FtiL1Q"
 vision = true
 
 [vision]
-mode = online
-baseurl = "" 
-token = ""
+base_url = "" 
+api_key = ""
 
 [tts]
-method = ""
-url = ""
-
+base_url = ""
+api_key = ""
 
 [rag]
-mode = local
-host = 127.0.0.1\
-token = 1234567890
+host = "127.0.0.1"
+api_key = ""
+
+[search]
+platform = "Tavily"
+base_url = ""
+api_key = ""
