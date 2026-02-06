@@ -20,4 +20,4 @@ api_key = ""
 [search]
 platform = "Tavily"
 base_url = ""
-api_key = ""
+api_key = "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"
