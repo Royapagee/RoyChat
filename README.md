@@ -14,12 +14,13 @@ ROYCHAT
 │  ├─app               #软件后端
 │  │  ├─api              #通信程序
 │  │  |  ├─aichat          #ai大模型适配器
-│  │  |  └─websoket        #后端通信
+│  │  |  └─websoket.py     #后端与前端通信
 │  │  └─services         #后端内部功能处理
 │  ├─config            #各个功能的配置文件
 │  └─models            #本地模型的存放
 │      ├─chat            #聊天 
 │      ├─embedding       #嵌入模型
+│      ├─reranker        #重排序模型
 │      ├─emotion         #情绪分类
 │      ├─stt             #语音转文本
 │      └─tts             #文本转语音
