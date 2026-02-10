@@ -40,7 +40,9 @@ def load_config():
     MODEL_EMBEDDING = config["model"]["embedding"]
     MODEL_STT = config["model"]["stt"]
 
-def load_api():
+    return()
+
+def load_api_config():
     file_path = Path(__file__).parent / "config" / "api.toml"
 
     # 读取并解析 TOML 文件
@@ -64,3 +66,5 @@ def load_api():
 
     SEARCH_PLATFORM = config["search"]["platform"]
     SEARCH_APIKEY = config["search"]["api_key"]
+
+    return("{"+"CHAT_URL"+"CHAT_MODELID"+"CHAT_APIKEY"+"CHAT_VISION"+"CHAT_TTS_URL"+"CHAT_TTS_APIKEY"+"RAG_URL"+"RAG_APIKEY"+"SEARCH_PLATFORM"+"SEARCH_APIKEY"+"}")
